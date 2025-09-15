@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 
+
 @layer utilities {
   .bg-gradient {
     background: linear-gradient(to right,#1E1E1E, #000E66 );
@@ -12,7 +13,7 @@
     -webkit-text-fill-color: transparent;
 }
 .cardClass {
-  @apply bg-white/10 backdrop-blur-lg border h-[459px] w-[370px] border-white/20 rounded-xl p-6 flex flex-col text-start text-white;
+  @apply  h-[430px] w-[370px] border-white/20 rounded-xl p-6 flex flex-col justify-center text-start text-white;
 }
 
 
@@ -30,6 +31,7 @@
 body {
   background: linear-gradient(to right,#1E1E1E, #000E66 );
   overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
 }
 
 html {

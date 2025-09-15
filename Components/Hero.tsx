@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className=" min-w-screen text-white flex h-screen" style={{position:"relative"}} >
          <div className="flex w-1/2  container">
-          <div className="text-start flex  flex-col justify-center " style={{position:"absolute",left:"150px",top:"250px",zIndex:"10"}}>
+          <div className="text-start flex  flex-col justify-center " style={{position:"absolute",left:"150px",top:"200px",zIndex:"10"}}>
             <h1 className="text-6xl font-semibold m-5 ">Transform Your GTM</h1>
             <p className="text-wrap ms-5">
               ImageQ helps businesses scale revenue through Go-To-Market

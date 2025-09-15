@@ -3,7 +3,7 @@ import React from "react";
 const Consultation = () => {
   return (
     <div className="text-center flex flex-col justify-center items-center">
-      <span className="text-5xl font-bold customblue ">
+      <span className="text-5xl font-bold customblue mb-3  leading-snug">
         Ready to Transform <br />
         Your Marketing?
       </span>
