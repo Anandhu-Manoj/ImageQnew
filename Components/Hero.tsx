@@ -7,7 +7,7 @@ const Hero = () => {
          <div className="flex w-1/2  container">
           <div className="text-start flex  flex-col justify-center " style={{position:"absolute",left:"150px",top:"200px",zIndex:"10"}}>
             <h1 className="text-6xl font-semibold m-5 ">Transform Your GTM</h1>
-            <p className="text-wrap ms-5">
+            <p className="text-wrap ms-5 text-sm">
               ImageQ helps businesses scale revenue through Go-To-Market
               Planning, Brand <br /> Strategy Planning, Agentic AI based
               Marketing Automation, Digital <br /> Marketing implementation and

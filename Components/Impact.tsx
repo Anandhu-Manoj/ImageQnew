@@ -1,5 +1,4 @@
 import React from "react";
-import ImpactCards from "./ImpactCards";
 
 const Impact = () => {
   return (
