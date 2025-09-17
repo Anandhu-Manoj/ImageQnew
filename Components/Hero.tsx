@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <div className=" min-w-screen text-white flex h-screen" style={{position:"relative"}} >
          <div className="flex w-1/2  container">
-          <div className="text-start flex  flex-col justify-center " style={{position:"absolute",left:"150px",top:"200px",zIndex:"10"}}>
+          <div className="text-start flex  flex-col justify-center " style={{position:"absolute",left:"50px",top:"180px",zIndex:"10"}}>
             <h1 className="text-6xl font-semibold m-5 ">Transform Your GTM</h1>
-            <p className="text-wrap ms-5 text-sm">
+            <p className="text-wrap ms-5 text-normal font-[400] text-white mb-5">
               ImageQ helps businesses scale revenue through Go-To-Market
               Planning, Brand <br /> Strategy Planning, Agentic AI based
               Marketing Automation, Digital <br /> Marketing implementation and
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
         <div>
           <Image src="/background.png" alt="Hero" width={835} height={835} className='opacity-100' style={{position:"absolute",right:"440px",top:"80px",zIndex:1}}/>
-          <Image src="/hero.png" alt="Hero" width={835} height={835} style={{position:"absolute",right:"100px",zIndex:0}}/>
+          <Image src="/hero.png" alt="Hero" width={875} height={935} style={{position:"absolute",right:"59px",zIndex:0}}/>
         </div>
     </div>
   )

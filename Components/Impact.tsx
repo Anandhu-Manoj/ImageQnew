@@ -3,10 +3,10 @@ import React from "react";
 const Impact = () => {
   return (
     <div className=" flex flex-col gap-5 w-[90%] text-start justify-start ">
-      <span className="text-4xl font-bold " style={{ color: "#015CB5" }}>
+      <span className="text-5xl font-bold " style={{ color: "#015CB5" }}>
         Our Impact
       </span>
-      <span className="text-xs text-white ">
+      <span className="text-m font-thin text-white ">
         Being a leading B2B Branding & Website Agency in India, we understand
         that the value of branding goes far beyond aesthetics. It is not just
         about how something looks or <br />
@@ -15,15 +15,15 @@ const Impact = () => {
         financial return. <br /> This process enables your brand to
       </span>
       <div className="text-white text-xs flex flex-col gap-1">
-        <p>
+        <p  className="text-lg font-light">
           <span className="font-bold text-lg ">.</span> Make Your Audience Say
           Yes
         </p>
-        <p>
+        <p className="text-lg font-light">
           <span className="font-bold text-lg ">.</span> Inspire Your Team to
           Thrive
         </p>
-        <p>
+        <p  className="text-lg font-light">
           <span className="font-bold text-lg ">.</span> Attract Serious
           Investment
         </p>
