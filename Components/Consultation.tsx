@@ -7,11 +7,11 @@ const Consultation = () => {
         Ready to Transform <br />
         Your Marketing?
       </span>
-      <p className="text-white m-4">
+      <p className="text-white font-light m-4">
         Schedule a consultation with our team to discuss how we can help you{" "}
         <br /> achieve your business goals.
       </p>
-      <button className="bg-white/15 backdrop-blur-md border border-white/30 text-white rounded-3xl py-3 px-4 w-[200px] shadow-lg hover:bg-white/25 transition">Book A consultation</button>
+      <button className="bg-white/15 backdrop-blur-md border border-white/30 text-white rounded-4xl py-3 px-2 w-[204px] h-[52px] shadow-lg hover:bg-white/25 transition">Book A consultation</button>
     </div>
   );
 };

@@ -14,10 +14,10 @@ const Hero = () => {
               strategic Media Communication.
             </p>
             <div className="flex gap-5 ms-5 mt-3 ">
-              <button className="bg-white/15 backdrop-blur-md border border-white/30 text-white rounded-3xl py-2 px-6 shadow-lg hover:bg-white/25 transition">
+              <button className="bg-white/15 backdrop-blur-md border border-white/30 text-white rounded-3xl py-2 w-[204px] h-[52px] px-6 shadow-lg hover:bg-white/25 transition">
                 Book A Consultation
               </button>
-              <button className="bg-white/15 backdrop-blur-md border border-white/30 text-white rounded-3xl py-2 px-6 shadow-lg hover:bg-white/25 transition">
+              <button className="bg-white/15 backdrop-blur-md border border-white/30 text-white rounded-3xl w-[204px] h-[52px] py-2 px-6 shadow-lg hover:bg-white/25 transition">
                 Dont Click This
               </button>
 

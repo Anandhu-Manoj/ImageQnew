@@ -22,7 +22,7 @@
 
 @layer components{
   .footer-container{
- @apply text-start flex flex-col text-white gap-2;
+ @apply text-start flex flex-col text-white gap-4;
 }
 
 }

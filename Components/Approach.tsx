@@ -371,6 +371,23 @@ const Approach = () => {
               width={60}
               height={16}
             />
+            
+             <pre className="text-sm font-light whitespace-pre-wrap font-mono absolute bottom-0 left-25" style={{color:"#A7BBFF"}}>
+    {`<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    <title>Hello, World!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+       `}
+  </pre>
           </div>
         </div>
       </div>
