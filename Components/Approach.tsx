@@ -3,7 +3,14 @@ import React from "react";
 
 const Approach = () => {
   return (
-    <div className=" flex flex-col gap-5 w-[85%] text-start justify-center ">
+    <div className=" flex flex-col gap-5 w-[85%] text-start justify-center relative">
+      <Image
+              className="absolute right-[40%] top-[35%]  scale-150 z-[-1]"
+              src={"/background.png"}
+              alt="bg"
+              width={616}
+              height={616}
+            />
       <span className="text-[48px] font-bold " style={{ color: "#015CB5" }}>
         Our Approach
       </span>

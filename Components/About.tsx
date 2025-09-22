@@ -1,10 +1,13 @@
+import Image from "next/image";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const About = () => {
   return (
     
-   <div className="flex flex-col md:flex-row m-8 w-[90%] mt-5 gap-10 md:gap-16">
+   <div className="flex flex-col md:flex-row m-8 w-[90%] mt-5 gap-10 md:gap-16 relative z-10">
+    <Image className="absolute left-[-313] top-[-50] opacity-50 scale-150" src={'/background.png'} alt="bg" width={616} height={616}/>
+    <Image className="absolute right-[-313] bottom-[-150]  scale-150 z-[-1]" src={'/background.png'} alt="bg" width={616} height={616}/>
   {/* Left Column */}
   <div className="flex flex-col md:w-[40%]">
     <span className="text-start text-[48px] font-bold customblue mb-3 leading-snug">

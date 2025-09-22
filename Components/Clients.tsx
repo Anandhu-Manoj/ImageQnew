@@ -4,7 +4,7 @@ import React from 'react'
 const Clients = () => {
   return (
     <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 md:gap-20 z-10 mb-10">
-  <div className="imgcontainer opacity-25">
+  <div className="imgcontainer opacity-40">
     <Image
       src={"/carestack.png"}
       alt="client"
@@ -13,7 +13,7 @@ const Clients = () => {
       className="w-[100px] sm:w-[150px] md:w-[199px] h-auto"
     />
   </div>
-  <div className="imgcontainer">
+  <div className="imgcontainer ">
     <Image
       src={"/orthoFx.png"}
       alt="client"
@@ -22,7 +22,7 @@ const Clients = () => {
       className="w-[80px] sm:w-[120px] md:w-[139px] h-auto"
     />
   </div>
-  <div className="imgcontainer opacity-25">
+  <div className="imgcontainer opacity-40">
     <Image
       src={"/carestack.png"}
       alt="client"
