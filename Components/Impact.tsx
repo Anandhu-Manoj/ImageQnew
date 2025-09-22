@@ -6,7 +6,7 @@ const Impact = () => {
       <span className="text-[48px] font-bold " style={{ color: "#015CB5" }}>
         Our Impact
       </span>
-      <span className="text-m font-thin text-white ">
+      <span className="text-[16px] font-light text-white ">
         Being a leading B2B Branding & Website Agency in India, we understand
         that the value of branding goes far beyond aesthetics. It is not just
         about how something looks or <br />
@@ -14,7 +14,7 @@ const Impact = () => {
         the process—the very essence that creates a powerful emotional and
         financial return. <br /> This process enables your brand to
       </span>
-      <div className="text-white text-xs flex flex-col gap-1">
+      <div className="text-white  flex flex-col gap-1">
         <p  className="text-[16px] font-light">
           <span className="font-bold text-lg ">.</span> Make Your Audience Say
           Yes
