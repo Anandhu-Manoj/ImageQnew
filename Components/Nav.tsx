@@ -11,7 +11,7 @@ const Nav = () => {
       <div className="flex justify-between items-center min-h-[100px] w-full px-4 sm:px-6 md:px-12">
         {/* Logo */}
         <div className="logo font-extrabold text-4xl sm:text-3xl xs:text-2xl ms-15">
-          imageQ
+          ImageQ
         </div>
 
         {/* Links for Desktop */}
