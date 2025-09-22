@@ -31,7 +31,7 @@
 body {
   background: linear-gradient(to right,#1E1E1E, #000E66 );
   overflow-x: hidden;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
 }
 
 html {

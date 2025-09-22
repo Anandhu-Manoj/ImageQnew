@@ -4,26 +4,26 @@ import React from "react";
 const Approach = () => {
   return (
     <div className=" flex flex-col gap-5 w-[85%] text-start justify-center ">
-      <span className="text-5xl font-bold " style={{ color: "#015CB5" }}>
+      <span className="text-[48px] font-bold " style={{ color: "#015CB5" }}>
         Our Approach
       </span>
-      <span className="text-normal font-light text-white text-wrap ">
+      <span className="text-[16px] font-light text-white text-wrap ">
         At ImageQ, we believe in data-driven strategies that deliver <br />{" "}
         measurable results. Our team of marketing experts combines industry{" "}
         <br /> knowledge with innovative techniques to help businesses achieve{" "}
         <br /> sustainable growth.
       </span>
 
-      <div className="flex gap-3 justify-start  ">
+      <div className="flex flex-col md:flex-row gap-3 justify-start">
         <div className="flex flex-col">
           {/* firstcontainer */}
           <div
             style={{ position: "relative" }}
-            className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 w-[799px] h-[323px] flex flex-col items-center text-white"
+            className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 w-full md:w-[799px] h-[323px] flex flex-col items-center text-white"
           >
-            <div className="absolute text-start top-23 left-5  ">
-              <h2  className="font-bold text-xl mb-1">Proven track record of success</h2>
-              <p className="text-sm font-light">With a proven track record of success, we help our clients achieve their <br />
+            <div className="text-start md:absolute md:top-[23px] md:left-5">
+              <h2  className="font-bold text-[24px] mb-1">Proven track record of success</h2>
+              <p className="text-[14px] font-light">With a proven track record of success, we help our clients achieve their <br />
                goals. Our experience shows we can deliver results.</p>
 
             </div>
@@ -66,15 +66,15 @@ const Approach = () => {
               />
             </div>
           </div>
-          <div className="flex gap-3 mt-3">
+          <div className="flex flex-col md:flex-row gap-3 mt-3">
             {/* customised strategies */}
             <div
               style={{ position: "relative" }}
-              className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 w-[439px] h-[308px] flex flex-col items-center text-white"
+              className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 w-full md:w-[439px] h-[308px] flex flex-col items-center text-white"
             >
-              <div className="absolute top-3 left-5 text-start ">
-                <h2 className="text-xl font-bold">Customized strategies for <br /> your business</h2>
-                <p className="text-sm font-light">We craft customized strategies specifically for your <br /> business, ensuring every solution is tailored to your <br /> unique goals.</p>
+              <div className="text-start md:absolute md:top-3 md:left-5">
+                <h2 className="text-[24px] font-bold">Customized strategies for <br /> your business</h2>
+                <p className="text-[14px] font-light">We craft customized strategies specifically for your <br /> business, ensuring every solution is tailored to your <br /> unique goals.</p>
               </div>
               
               <Image
@@ -216,13 +216,13 @@ const Approach = () => {
             </div>
             <div
               style={{ position: "relative" }}
-              className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 w-[349px] h-[308px] flex flex-col items-center text-white"
+              className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 w-full md:w-[349px] h-[308px] flex flex-col items-center text-white"
             >
-              <div className="text-start absolute top-2.5 left-5 ">
-                <h1 className="text-xl font-bold mb-5 ">
+              <div className="text-start md:absolute md:top-2.5 md:left-5">
+                <h1 className="text-[24px] font-bold mb-1 ">
                   Transparent reporting and communication
                 </h1>
-                <p className="text-sm font-light">We believe in transparent reporting and <br /> communication, so you will always be in the loop <br /> about your progress and results.</p>
+                <p className="text-[14px] font-light">We believe in transparent reporting and <br /> communication, so you will always be in the loop <br /> about your progress and results.</p>
 
               </div>
               <Image
@@ -312,15 +312,15 @@ const Approach = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="w-full md:w-auto">
           {/* right side container */}
           <div
             style={{ position: "relative" }}
-            className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 w-[477px] h-[642px] flex flex-col items-center text-white"
+            className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 w-full md:w-[477px] h-[642px] flex flex-col items-center text-white"
           >
-            <div className="absolute top-10 left-5 text-start">
-              <h1 className="xl text-xl font-bold">End-to-end implementation <br /> support</h1>
-              <p className="text-sm font-light">We believe in transparent reporting and communication, so you will <br /> always be in the loop about your progress and results.</p>
+            <div className="text-start md:absolute md:top-10 md:left-5">
+              <h1 className="xl text-[24px] font-bold">End-to-end implementation <br /> support</h1>
+              <p className="text-[14px] font-light">We believe in transparent reporting and communication, so you will <br /> always be in the loop about your progress and results.</p>
 
             </div>
             <Image
