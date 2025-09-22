@@ -28,7 +28,7 @@ const Hero = () => {
             <button className="relative bg-white/15 backdrop-blur-md border border-white/20 text-white font-inter rounded-4xl py-2 px-8 shadow-lg overflow-hidden  hover:bg-white/25 transition">
               Book A Consultation
               {/* Top-left rim shine */}
-              <span className="absolute top-0 left-0 w-10 h-16 rounded-tl-3xl border-t-1 border-l-3 border-white/40 pointer-events-none"></span>
+              <span className="absolute top-0 left-0 w-80 h-16 rounded-tl-3xl border-t-2 border-l-2 border-white/40 pointer-events-none"></span>
               {/* Bottom-right rim shine */}
               <span className="absolute bottom-0 right-0 w-16 h-16 rounded-br-3xl border-b-1 border-r-1 border-white/40 pointer-events-none"></span>
             </button>
@@ -36,7 +36,7 @@ const Hero = () => {
             <button className="relative bg-white/15 backdrop-blur-md border border-white/20 text-white rounded-3xl w-[204px] h-[52px] py-2 px-6 shadow-lg hover:bg-white/25 transition overflow-hidden">
               Dont Click This
               {/* Top-left rim shine */}
-              <span className="absolute top-0 left-0 w-16 h-16 rounded-tl-3xl border-t-1 border-l-3 border-white/40  pointer-events-none"></span>
+              <span className="absolute top-0 left-0 w-50 h-16 rounded-tl-3xl border-t-1 border-l-3 border-white/40  pointer-events-none"></span>
               {/* Bottom-right rim shine */}
               <span className="absolute bottom-0 right-0 w-16 h-16 rounded-br-3xl border-b-1 border-r-2 border-white/20 pointer-events-none"></span>
             </button>
